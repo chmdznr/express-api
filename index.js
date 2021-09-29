@@ -36,4 +36,4 @@ app.use(Router);
 app.listen({ port: process.env.PORT }, async () => {
     console.log(`🚀 Server ready at http://localhost:${process.env.PORT}`);
 });
-// app.listen(process.env.PORT, () => console.log(`Server running at http://localhost:${process.env.PORT}`));
+
